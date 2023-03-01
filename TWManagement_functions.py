@@ -39,7 +39,7 @@ def CollectPastTweets(db_path):
 
 # Put Past Tweet IDs into workable form - list of lists
 def SplitPastTweets(string_list, max_size = 100):
-    return [string_list[i:i+max_size] for i in range(0,len(string_list))]
+    return [string_list[i:i+max_size] for i in range(0,len(string_list),max_size)]
 
 # Merge Old tweet metrics with new for the time period
 def MergeTweetMetrics(TweetMetricsNew,TweetMetricsPast):
