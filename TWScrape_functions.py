@@ -4,6 +4,7 @@ import time
 import datetime
 
 # API Credentials File Names
+############# THESE ARE STORED AS SEPARATE .txt FILES IN THE SAME FOLDER
 filenames = ["API.txt","APIsecret.txt","bToken.txt"]
 
 # Get API Credentials
