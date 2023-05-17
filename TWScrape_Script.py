@@ -4,6 +4,8 @@ from Scrape_functions import *
 from Management_functions import *
 
 # Set path to the database
+############## CHANGE THESE PATHS
+############## TO REPRESENT YOUR DESIRED DIRECTORIES
 api_keys_path = Path("D:/Research/")
 directory_path = Path("D:/Research/Twitter Data")
 db_path = directory_path/"Brand_Twitter.db"
